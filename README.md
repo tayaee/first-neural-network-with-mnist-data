@@ -11,4 +11,4 @@ web
 ```
 
 ### Streamlit Community Cloud
-URL
+https://first-neural-network-with-mnist-data.streamlit.app/
