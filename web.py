@@ -28,7 +28,7 @@ wrong = sum(1 for r in st.session_state.results if r == "wrong")
 unpredicted = sum(1 for r in st.session_state.results if r is None)
 st.subheader(f"Correct: {correct}, Wrong: {wrong}, Unpredicted: {unpredicted}")
 
-if st.button("Re-sample"):
+if st.button("Re-sample images"):
     refresh_samples()
     st.rerun()
 
