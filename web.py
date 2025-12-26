@@ -22,10 +22,10 @@ def refresh_samples():
 
 st.title("MNIST Hands-on Neural Network")
 
+st.markdown("https://github.com/tayaee/first-neural-network-with-mnist-data")
 correct = sum(1 for r in st.session_state.results if r == "correct")
 wrong = sum(1 for r in st.session_state.results if r == "wrong")
 unpredicted = sum(1 for r in st.session_state.results if r is None)
-
 st.subheader(f"Correct: {correct}, Wrong: {wrong}, Unpredicted: {unpredicted}")
 
 if st.button("Re-sample"):
