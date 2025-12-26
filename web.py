@@ -41,7 +41,7 @@ for i in range(10):
         if st.session_state.predictions[i] is not None:
             button_label = str(st.session_state.predictions[i])
         else:
-            button_label = "?"
+            button_label = "Predict #"
 
         if st.button(
             button_label,
